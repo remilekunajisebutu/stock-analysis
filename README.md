@@ -13,9 +13,14 @@ Comparing the 2017 and the 2018 stocks, the difference in the total daily volume
 
 ### Comparing the Original Run Times to the Refactored Run Times
 
-Run times for the original code took around 0.7 to 0.9 seconds for 2017 and 2018 respectively
+Run times for the original code took around 0.7 to 0.9 seconds for year 2017 and 2018 respectively
 
 <img src="https://github.com/remilekunajisebutu/stock-analysis/blob/main/Resources/original timer 2017.png" width="425"/><img src="https://github.com/remilekunajisebutu/stock-analysis/blob/main/Resources/original timer 2018.png" width="425"/>
+
+Run times for the refactored code took around 0.14 seconds for year 2017 and 2018 
+
+<img src="https://github.com/remilekunajisebutu/stock-analysis/blob/main/Resources/refactored%20timer%20for%202017.png" width="425"/><img src="https://github.com/remilekunajisebutu/stock-analysis/blob/main/Resources/refactored%20timer%20for%202018.png" width="425"/>
+
 
 
 
