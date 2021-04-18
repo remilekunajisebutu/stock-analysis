@@ -10,7 +10,8 @@ Using run buttons, Steve will have the ability to put in the year into an input 
 Comparing the 2017 and the 2018 stocks, the difference in the total daily volume between the two years that resulted in less than a $100,000,000 in increased volume was not enough to generate a positive 2018 return percentage. The tickers ENPH and RUN had would have been considered good investments due to the positive returns in 2018, and both of the tickers had increases greater than $200,000,000 over the 2017 total daily volumes.
 
 ![2017](https://github.com/remilekunajisebutu/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
-https://github.com/remilekunajisebutu/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png
+![2018](https://github.com/remilekunajisebutu/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
+
 
 # Summary
 
