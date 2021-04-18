@@ -26,7 +26,7 @@ Refactoring the code did make the run times decrease, which optimizes the code.
 ### Code difference between the original and refactored data
 The original code contained a nested for loop. Included in that outer loop, it also output the data for the current data, which resulted in a significant number of iterations.
 
-<img src="https://github.com/remilekunajisebutu/stock-analysis/blob/main/Resources/ticker%20original.png" width="425"/>
+<img src="https://github.com/remilekunajisebutu/stock-analysis/blob/main/Resources/Original%20ticker.png" width="425"/>
 
 With refactoring the code to only have one loop and moving the output to a separate loop, the number of iterations was drastically reduced. 
 Also, placing the large data in an array made a difference in the optimization. 
