@@ -21,8 +21,28 @@ Run times for the refactored code took around 0.14 seconds for year 2017 and 201
 
 <img src="https://github.com/remilekunajisebutu/stock-analysis/blob/main/Resources/refactored%20timer%20for%202017.png" width="425"/><img src="https://github.com/remilekunajisebutu/stock-analysis/blob/main/Resources/refactored%20timer%20for%202018.png" width="425"/>
 
+Refactoring the code did make the run times decrease, which optimizes the code.
 
+### Code difference between the original and refactored data
+The original code contained a nested for loop. Included in that outer loop, it also output the data for the current data, which resulted in a significant number of iterations.
+
+<img src="https://github.com/remilekunajisebutu/stock-analysis/blob/main/Resources/ticker%20original.png" width="425"/>
+
+With refactoring the code to only have one loop and moving the output to a separate loop, the number of iterations was drastically reduced. 
+Also, placing the large data in an array made a difference in the optimization. 
+
+<img src="https://github.com/remilekunajisebutu/stock-analysis/blob/main/Resources/Ticker%20refactored.png" width="425"/>
 
 
 # Summary
+### 1. What are the advantages or disadvantages of refactoring code?
+#### Advantages
+Finding the root cause of a potential bug can be done with refactoring. A programmer can catch duplicated subroutines, unnecessary loops, redundant statements, or code that was used to run down an error but was accidently left in the script. Another advantage is when a peer reviews another programmer’s work, they will come with a fresh perspective and can tidy up the code to make it run leaner.
+
+#### Disadvantages
+Programming can have multiple approaches to a solve a problem. In those differences, programmers may have alternative logic steps, which will require testing to see how those differences play out in the script. Refracting a stable code to apply a different set of logic could be costly or introduce new bugs into the system. When juggling tight deadlines, programmers may also have to choose between refactoring or developing new code.
+
+### 2. How do these pros and cons apply to refactoring the original VBA script?
+Reducing the number of loops decreases the memory needed for processing the data, which reduces the run time and optimizes the performance of the script. To refactor the code, testing has to be done with each new addition to check for the efficiency of the new code.
+
 
